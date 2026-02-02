@@ -1,0 +1,17 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore FAISS index (optional, if large or auto-generated)
+faiss_index/
+
+# Ignore user-specific configs
+*.log
+.DS_Store
+
+# Ignore model checkpoints or temporary data (if any)
+*.tmp
